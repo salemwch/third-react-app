@@ -1,0 +1,295 @@
+
+.App{
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/25/22/54/background-3261090_960_720.jpg);
+    background-repeat: no-repeat,repeat;
+    background-size: contain;
+}
+
+.cont{
+    background-image: url(https://365psd.com/images/previews/f8b/abstract-music-design-background-vector-illustration-3357.jpg);
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+}
+.section-7{
+    background-image: url(https://thumbs.dreamstime.com/b/modern-background-design-banner-certificate-others-vector-editable-hight-quality-modern-background-design-133148046.jpg);
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+}
+.App{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    height: 60px;
+}
+
+.liste {
+    list-style-type: none;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(156, 14, 156), midnightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.items {
+    margin-right: 10px;
+    color: #f1f1f1;
+    cursor: pointer;
+    padding:  0 10px;
+}
+.items:hover{
+    color: mediumvioletred;
+}
+.btn{
+    display: none;
+}
+.img1{
+    height: 50px;
+    margin: 5px 0  5px 20rem;
+    display: flex;
+    border-radius: 25px;
+}
+.img2{
+    height: 50px;
+    margin: 5px 20rem 5px 0;
+    display: flex;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 500px){
+    
+    
+    .liste{
+        flex-direction: column;
+        height: 400px;
+    }
+    .items:nth-child(1){
+        border-top: 1px solid #fff;
+        margin-top: 50px;
+
+    }
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        line-height: 50px;
+        border-top: 1px solid #fff;
+        
+    }
+    .img1{
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .img2{
+    position:relative;
+    margin: 2px 0 0 0;
+    padding: 0;
+    }  
+}
+.title-a{
+    text-align: center;
+    margin: 0 0 3px 0;
+    padding: 20px;
+    width: 95%;
+    color: white;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    height: 590px;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    height: 590px;
+}
+
+.card{
+    width: 20rem;
+    margin: 20px 20px 20px 5rem;
+    
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px;
+    color: violet;
+}
+.card-body{
+    padding:3rem 0 !important;
+    
+}
+.text-dark{
+    text-align: center;
+}
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+.container-flui .row{
+    padding-top: 6rem;
+}
+.overflow{
+    overflow: hidden;
+    height: 250px;
+}
+.card-image{
+    transform: scale(1);
+    transition:  1s ease;
+}
+.card-image:hover{
+    transform: scale(1.8);
+}
+.section-7{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    height: 800px;
+}
+.title-s{
+    color: black;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 3px 0;
+    padding: 20px;
+    width: 95%;
+}
+.image-f{
+    width: 250px;
+    margin: 6.5rem 0 0 6.5rem;
+    height: 250px;
+    border-radius: 50%;
+    transform: scale(1);
+    transition:  1s ease;
+    
+}
+.image-f:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px 10px  ;
+    color: violet;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    
+}
+section::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+}
+.container{
+    position: relative;
+    min-width: 950px;
+    min-height: 500px;
+    display: flex;
+    z-index: 1000;
+}
+.container .contactInfo{
+    position: absolute;
+    top: 40px;
+    width: 320px;
+    height: calc(100% - 80px);
+    background: #095a55;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+.container .contactInfo h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .contactInfo ul.info{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.container .contactInfo ul.info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 5px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+.container .contactInfo ul.info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+.container .contactInfo ul.info li span:nth-child(1) img{
+    max-width: 50px;
+    min-width: 30px;
+    margin: 0 5rem 4rem 0;
+    
+}
+.container .contactInfo ul.info li span:nth-child(2){
+    color: #fff;
+    margin: 5px 5px 5px 25px;
+    font-weight: 300;
+}
+.container .contactForm{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 177px;
+    margin-left: 150px;
+    width:  calc(100% - 150px);
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+}
+.container .contactForm h2 {
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .contactForm .formBox{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.container .contactForm .formBox .inputBox{
+    position: relative;
+    margin-bottom: 15px;
+}
+.container .contactForm .formBox .inputBox.w50{
+    width: 47%;
+    margin: 0 7px 2px 7px
+}
+.container .contactForm .formBox .inputBox.w100{
+    width: 100%;
+    margin: 9px 5px 2px 5px
+}
+.container .contactForm .formBox .inputBox input,
+.container .contactForm .formBox .inputBox textarea{
+    width: 100%;
+    resize: none;
+    padding: 8px 0px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
